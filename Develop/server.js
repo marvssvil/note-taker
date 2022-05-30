@@ -20,11 +20,8 @@ app.use(express.json());
 app.use(express.static('public'));
 
 //GET
-app.get("/api/notes", function(req, res) {
-    readFileAsync("./develop/db/db.json").then(function(data) {
-        notes = [].concat(JSON.parse(data))
-        res.json(notes);
-    })
+app.get("/api/notes", (req, res) => {
+    res.sendFile(path.join(__dirname, "/db/db.json"))
 });
 
 //POST
