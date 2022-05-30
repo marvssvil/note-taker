@@ -16,7 +16,7 @@ Just input a title and descritpion on the note page and a new note will be added
 
 ## Test
 You can click on the link and test it out yourself!
-https://marvssvil.github.io/note-taker/
+https://pacific-harbor-80460.herokuapp.com/
 
 ## Contact
 Email me at: vic.solis.maria@gmail.com
